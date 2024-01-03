@@ -1,7 +1,6 @@
 require "gem_teste_calculadora/version"
 
 module GemTesteCalculadora
-  module Calculo
     def soma(a, b)
       return a + b
     end
@@ -17,5 +16,4 @@ module GemTesteCalculadora
     def dividir(a, b)
       return a / b
     end
-  end
 end
